@@ -1,10 +1,13 @@
 // 1. Change the title of the page to `Hello AltCampus!`
-
+document.title="Hello AltCampus"
 // 2. Select the element using the children property:
-
+document.children(h1);
 //    - Select the `h1` element and change the value to `Learning DOM`
-
+let p1 = document.querySelector(h1)
+p1 = 'Learning DOM'
 //    - Select the first `li` element inside the `ul` with class `topics` and change the innerText to `all about document`
+let p2 = document.querySelector(ul)
+
 //    - Select the input element with name `email`
 
 // 3. Log the number (using console.log) of children of all the `li` element inside the ul with class `topics`
